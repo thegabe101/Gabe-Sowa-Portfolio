@@ -1,0 +1,26 @@
+.main-nav {
+    margin-right: auto;
+}
+
+.main-nav a {
+    font-weight: 300;
+    background-color: rgb(255, 122, 89);
+}
+
+.main-nav .container {
+    display: flex;
+    -webkit-box-align: right;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+a {
+    background: no-repeat;
+    background-image: linear-gradient(var(--text-color,#333),var(--text-color,#333));
+    background-size: 100% 1px;
+    background-position: center bottom;
+    font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
