@@ -1,25 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I’m Gabriel Sowa, a designer, developer, photographer, and writer from Seattle, Washington.">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
-    <title>Gabe's Portolio</title>
-</head>
-<body>
-    <nav class="main-nav">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--i believe this meta content is the search result snippet, but unsure-->
+    <meta
+      name="description"
+      content="I’m Gabriel Sowa, a designer, developer, photographer, and writer from Seattle, Washington."
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Gabe's&nbsp;Portolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
         <div class="container">
-            <div class="nav-home">
-                <a href="#">Gabriel Sowa</a>
-            </div>
-            <a class="nav-about" href="#">About</a>
-            <a class="nav-pages" href="#">Pages</a>
-            <a class="nav-photos" href="#">Photos</a>
-            <a class="nav-writings" href="#">Writings</a>
+          <div class="nav-home">
+            <h1>Gabe&nbsp;Sowa</h1>
+          </div>
+          <!--nowhere to link yet for these future pages; dummy links-->
+          <a href="#">About</a>
+          <a href="#">Pages</a>
+          <a href="#">Photo Collection</a>
+          <a href="#">Writings</a>
         </div>
-    </nav>
-</body>
+      </nav>
+    </header>
+    <figure class="banner">
+      <img class="banner-img" src="assets/Images/1.jpg" />
+      <!--trouble situating list. nested incorrectly in figure class and causing issues-->
+      <ul id="ul">
+        <li>Web Development</li>
+        <li>Writing</li>
+        <li>Photography</li>
+      </ul>
+    </figure>
+    <main>
+      <section class="aboutme">
+        <h2 id="h2-1">About Me</h2>
+        <!--these sections are written in a speculative manner. i don't actually have a career in this yet. one can dream-->
+        <p id="aboutme">
+          I am a web developer from Seattle, Washington, USA. I focus on
+          creatine simple, elegant websites that are accessible and pleasant on
+          the eyes while maintaining maximum utility. Keeping in mind that a
+          website is often the first impressionn of a company or any other
+          entity in the modern world, I ensure my client makes a good one. My
+          passions outside of development include reading, writing, running, and
+          photography. My love for the outdoors often influences my work in
+          element and aesthetic choices.
+        </p>
+      </section>
+      <section>
+        <h2 id="h2-2">Work</h2>
+      </section>
+      <section>
+        <h2 id="h2-3">Photos</h2>
+      </section>
+    </main>
+    <footer>
+      <!--&nbsp is just a temp trick to get words to situate on one line. this was a flexbox issue-->
+      <h3>Contact&nbsp;Me</h3>
+      <p>971&nbsp;-&nbsp;895&nbsp;-&nbsp;0019</p>
+      <!--dummy links-->
+      <a href="#"
+        ><span id="spang">sow</span><span id="spanm">a3</span
+        ><span id="spana">32@</span><span id="spani">gmai</span
+        ><span id="spanl">l.com</span></a
+      >
+      <a href="#"><span id="span2">GitHub</span></a>
+      <a href="#"><span id="span3">Spotify</span></a>
+      <a href="#"><span id="span4">LinkedIn</span></a>
+    </footer>
+  </body>
 </html>
-
