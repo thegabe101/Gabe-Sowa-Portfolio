@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: arial, serif;
+    flex-direction: column;
 }
 
 /*significant trouble getting my first and last name to align on the same block within the navbar*/
@@ -14,12 +15,13 @@ h1 {
     padding-top: 15px;
     height: 65px;
     background-color: lightblue;
-    color: slategrey;
+    color: whitesmoke;
     padding-inline-start: 3em;
     text-indent: 20px;
     flex-wrap: wrap;
     margin-right: 0;
     padding: 15px 10px 0 35px;
+    text-shadow: 2px 2px 2px slategrey;
 }
 
 /*can't figure out how to align subtitle on right side*/
@@ -65,6 +67,7 @@ a {
     text-decoration: none;
     position: relative;
     padding: 10px;
+    text-shadow: 5px 5px 5px black;
 }
 
 .banner {
@@ -73,7 +76,6 @@ a {
     margin: 0;
     padding: 0;
     position: relative;
-    text-align: center;
 }
 
 /*found creating a direct descendant useful here*/
@@ -83,32 +85,45 @@ a {
     padding: 0;
     width: 100%;
     display: flex;
-    outline: solid 2px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    min-height: 250px;
+    object-fit: cover;
+    border-bottom: solid 2px black;
 }
 
+
 #ul {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 20px;
+    right: 3%;
+    padding: 1em 2em 1em 3em;
     background-color: steelblue;
+    color: lightcyan;
+    border: solid gray 10px;
     border-radius: 5em;
+    font-weight: 200;
+    font-size: large;
+    line-height: 30px;
+    box-shadow: 10px 10px 10px black;
 }
 
 main {
-    border-top: solid 3px black;
-    display: flex;
-    flex-direction: column;
     background-color: slategrey;
-    opacity: 75%;
 }
 
 .aboutme {
-    display: inline-block;
     color: lightblue;
+    align-items: flex-end;
 }
 
 #aboutme {
     display: flex;
+    width: 40%;
+    justify-content: flex-end;
 }
 
 
@@ -133,6 +148,28 @@ h2 {
     display: flex;
     flex-direction: column;
     padding-top: 80px;
+    padding-right: 45px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.photoex img {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15%;
+    padding-bottom: 15%;
 }
 
 h3 {
@@ -145,31 +182,34 @@ footer {
     height: 10px;
     width: 100%;
     text-indent: 5%;
-    padding-top: 6%;
-    padding-bottom: 10%;
-    padding-left: 2.3em;
+    padding-top: 5em;
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
-    background-image: url(https://media.istockphoto.com/photos/misty-forest-picture-id157380692?b=1&k=20&m=157380692&s=170667a&w=0&h=RB2wAR5BZUDERCOuSJZIgdGA-5CHCIR1bX-G3zi3Nco=);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #333;
+    border-top: solid 3px black;
 }
 
 #spang {
-    background-color: black;
     color: #4285F4;
     border-radius: 15%;
 }
 
 #spanm {
-    background-color: #BB001B;
+    color: #BB001B;
+}
+
+#spana {
+    color: #EA4335;
 }
 
 #spani {
-    background-color: #EA4335;
+    color: #FBBC05;
+}
+
+#spanl {
+    color: #34A853;
 }
 
 #span2 {
