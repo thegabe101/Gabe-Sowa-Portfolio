@@ -4,7 +4,7 @@
 
 Repository URL: https://github.com/thegabe101/gabe-challenge-2
 
-Deploy URL:
+Deploy URL: https://thegabe101.github.io/gabe-challenge-2/
 
 ## Description
 

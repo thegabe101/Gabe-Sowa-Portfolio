@@ -124,6 +124,7 @@ main {
     font-size: larger;
     box-shadow: 2px 2px 2px 2px honeydew;
     margin-bottom: 50px;
+    align-self: flex-start;
 }
 
 /*this row is really tricky. im trying to create a good flexbox for my project cards but it is messing up the heading as well*/
