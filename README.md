@@ -7,7 +7,7 @@
 - This project is meant to solve the issue of having no centralized portfolio space in which to share and publish my work. Everything (or, most things) I do throughout this class and beyond will be published here.
 - I learned an immense amount on the intricacies of CSS and the power a learned coder has to customize a webpage to their tastes. I also learned how much patience one is required to have when designing something that needs to look just right. Things that gave me the most trouble:
   -Flexbox, far and away.
-  -General skeleton. I look forward to my next project because I learned something really important here: build the skeleton first (and hopefully wireframe it before that). I realized about halfway through as I was still adding HTML that things had gotten wildly out of order.
+  -General skeleton. I look forward to my next project because I learned something really important here: build the skeleton first (and hopefully wireframe it before that). I realized about halfway through as I was still adding HTML that things had gotten wildly out of order. This was completely avoidable had I focused on my HTML first before adding styling.
   -Failing to notate. I did not notate suspect parts of my code from the beginning and as I went to refactor later it cost me, because I couldn't figure out where the issue was coming from.
   -Images. Sizing my images properly was a nightmare, as was aligning them correctly in an acceptable manner.
 - I want to note how much I struggled with this project. Fewer than seven days ago, I had never coded anything in my life; I had no experience with web design, development, code, or syntax. Building even this hideous page took me longer than I'd like to admit, and the vast majority of it is janky. However, I am not dissapointed because I feel I learned a tremendous amount working on this. I can't wait for a fresh start on my next project and feel it will go much better with a cleaner start.
@@ -36,3 +36,7 @@
 - Special thanks should be given to the instructors, TA's, and tutors employed at UW's Coding Bootcamp in enabling the development of this webpage.
 
 ## Screenshots
+
+[Imgur](https://i.imgur.com/kh5uYGk.jpg)
+
+[Imgur](https://i.imgur.com/3tIi8Je.jpg)
