@@ -318,3 +318,25 @@ footer p {
     padding: 1em 1em 1em 1em;
     box-shadow: 10px 10px 10px black; 
 }
+
+/*lots of difficulty with media queries. not sure I can figure this one out*/
+
+@media screen and (max-width: 800px) {
+    .projects {
+      flex: 50%;
+      max-width: 50%;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+
+/*got queries working VERY poorly. this is something to get better at.*/
+
+@media screen and (max-width: 600px) {
+    .photos {
+      flex: 100%;
+      max-width: 100%;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
