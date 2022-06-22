@@ -29,12 +29,6 @@ h1 {
 
 /*can't figure out how to align subtitle on right side*/
 
-.nav-home {
-    background-color: slategrey;
-    display: flex;
-    justify-content: right;
-}
-
 .main-nav a {
     font-weight: 300;
     background-color: slategrey;
@@ -44,7 +38,7 @@ h1 {
     align-items: center;
     color: rgb(211, 236, 245);
     text-decoration: underline solid 2px;
-    justify-content: end;
+    justify-content: space-evenly;
     font-size: 18px;
     font-weight: bold;
     text-align: right;
@@ -57,19 +51,16 @@ h1 {
 
 .main-nav .container {
     display: flex;
-    justify-content: flex-end;
 }
 
 
 header a {
     background: no-repeat;
-    background-image: linear-gradient(var(--text-color,#333),var(--text-color,#333));
-    background-size: 100% 1px;
     background-position: center bottom;
     font-weight: bold;
     text-decoration: none;
     position: relative;
-    padding: 10px;
+    padding: 15px;
     text-shadow: 4px 4px 4px black;
 }
 
@@ -119,45 +110,114 @@ main {
 }
 
 .aboutme {
-    color: rgb(211, 236, 245);;
-    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
 }
 
-#aboutme {
-    display: inline;
-    text-decoration: none;
+#bodyparagraph {
+    border: white 2px solid;
+    border-radius: 15%;
+    margin:auto 25px;
+    color:rgb(211, 236, 245);
+    margin-top: 1%;
+    padding: 0 25px;
+    font-size: larger;
+    box-shadow: 2px 2px 2px 2px honeydew;
+    margin-bottom: 50px;
 }
+
+/*this row is really tricky. im trying to create a good flexbox for my project cards but it is messing up the heading as well*/
+
+.projects {
+    display: flex;
+    flex-direction:row;
+}
+
+.projectcards {
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+    display:flex;
+    top:0; right: 0; left: 0; bottom: 0;
+    margin: 25px 25px 25px 25px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ96lrvoXbEiXlbj9_Czn6FwsFICjdoxiN_KQ&usqp=CAU");
+    background-color: black;
+    background-size: cover;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+    }
+
+/*big issues spacing project cards. something to do w padding and margin*/
+
+.projectcards2 {
+        width:100px;
+        height: 100px;
+        display:flex;
+        top:0; right: 0; left: 0; bottom: 0;
+        margin-left: 25px 25px 25px 25px;
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2cUOl5sUejpuM-xE6TM-i63jqK5afBsNW7w&usqp=CAU");
+        background-color: black;
+        background-size: cover;
+        cursor: pointer;
+        justify-content: space-evenly;
+        -webkit-box-shadow: 0 0 5px #000;
+        box-shadow: 0 0 5px #000;
+        margin-top: 26px;
+        margin-left: 50px;
+        margin-right:22px
+        }
+
+
+/*ended up using margin to "cheat" on project cards. need to figure this out in the future*/
+
+.projectcards3 {
+    width:100px;
+    height: 100px;
+    display:flex;
+    top:0; right: 0; left: 0; bottom: 0;
+    margin-left: 25px 25px 25px 25px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYYzqwhaXLwlaF1LS3hij2tTajp5EjIkMUA&usqp=CAU");
+    background-color: black;
+    background-size: cover;
+    cursor: pointer;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+    margin-top: 26px;
+    margin-left: 50px;
+        }
 
 h2 {
-    text-indent: 5em;
+    margin-left: 10px;
     font-size: xx-large;
-    color: rgb(211, 236, 245);;
-    text-decoration: underline;
-      }
+    color: rgb(211, 236, 245);
+    padding: 50px 15px 35px 15px;
+}
 
 #h2-1 {
-    border-inline-start: #4285F4;
     border: silver 5px solid;
-    border-block-end-style: groove;
-    background-color: lightslategray;
-    background-color: hsl(30, 1%, 30%);
+    border-block-end-style:ridge;
+    background-image: url("https://lh3.googleusercontent.com/KwBz8ahfMJfoO4XxMSrlgflx0ckQurUh5tODNj_0e-pIT-A5clEfB6rJiJhfvscm5_1l8QGrO84QhnZpokWfKNUQcElSbjhrM4edeB5CxtkZJ9q8VrlRlyXpAbdtvhy7RI7fIgT6gYS-UpkZsreJl1L7F7ARI-wgeM5hJr73xlwmJduXj09cQtaUy55SXSVAgnw8VXWGIigHU6F7WJGsPat9IkF16Kv3iCOxK3th93U0jjG9hyYucytI-w7DoRnuOSCHwgGc5NcWAXDC0BfySBNxLpvtkzb6sNafPathz_5vyo6aN3GAockbOzC772FSSjKL1JUDtGzEgvuNidcHC_Br6ZneVr1bOEBlNJAmmx-N7BEaJunH0fchXnY5Itik0qONTpFUR7uZNZSV0MwP3VDZHC_ozDcYSs3Xoor2DRLcUYAAvwWPBbW3zeixAbr9YF0iCLi2qNX1Swdlq0uWUdyNGGnVXSGGFgfl3w45e4c_JopoCklmVV7_4AsPmAIc-HkC-3dqX09als_Zbh0RbtT0bpQnH-pDW511BT0yoWMLmNHoj5pmwvECJ7KI6lNRjpJAXmDNqxTKB0dIvaisbO1nBp1eyb2rtg9nSM1QcimxOG0HJ090BKYuDzQ48wZ6fcvOQbERjR2SVKgDY1nJ48a_05jrRfo-1R22RYoVKQG1misZVUWaCtIz5wTFs5nPnpJTr0_RV8qegSpBLyynvAxr3MXnkw9BPYlz7lm8mE8R3Xd7cVfe1YGoBrkM=w700-h933-no?authuser=0");
+    box-shadow: 2px 2px 2px 2px honeydew;
+    filter: grayscale(100%);
+}
+
+.textbackdrop1 {
+    background-color: rgba(24, 23, 22, 0.596);
+    width: 105px;
+    color: whitesmoke;
+}
+
+.textbackdrop {
+    background-color: rgba(24, 23, 22, 0.596);
 }
 
 TODO:create border point between work and photos
 
-#h2-2 {
+#h2-1 {
     color: rgb(211, 236, 245);
-    padding-bottom: 10%;
-    padding-top: 6%;
-    text-decoration: underline;
-    border-bottom: #333 3px solid;
-}
-
-#h2-3 {
-    color: rgb(211, 236, 245);;
-    display: flex;
-    padding-top: 20px;
-    padding-right: 45px;
+    justify-content: flex-start;
     text-decoration: underline;
 }
 
@@ -188,7 +248,7 @@ footer {
     text-indent: 5%;
     padding-top: 0.2em;
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-decoration: none;
     background-color: #333;
@@ -205,6 +265,7 @@ h3 {
     border-radius: 50%;
     padding: 1em 1em 1em 1em; 
     text-align: justify;
+    box-shadow: 10px 10px 10px black;
 }
 
 footer p {
@@ -238,6 +299,7 @@ footer p {
     color: #171515;
     border-radius: 50%;
     padding: 1em 1em 1em 1em; 
+    box-shadow: 10px 10px 10px black;
 }
 
 #span3 {
@@ -245,13 +307,13 @@ footer p {
     color: #81b71a;
     border-radius: 50%;
     padding: 1em 1em 1em 1em; 
+    box-shadow: 10px 10px 10px black;
 }
 
 #span4 {
     background-color: aliceblue;
     color: #0072b1;
     border-radius: 50%;
-    padding: 1em 1em 1em 1em; 
+    padding: 1em 1em 1em 1em;
+    box-shadow: 10px 10px 10px black; 
 }
-
-.fa- 

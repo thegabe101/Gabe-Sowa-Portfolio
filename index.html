@@ -26,7 +26,7 @@
     <header>
       <nav class="main-nav">
         <div class="container">
-          <div class="nav-home">
+          <div>
             <h1>Gabe&nbsp;Sowa</h1>
           </div>
           <!--nowhere to link yet for these future pages; dummy links-->
@@ -49,9 +49,9 @@
     </figure>
     <main>
       <section class="aboutme">
-        <h2 id="h2-1">About Me</h2>
+        <h2 id="h2-1"><p class="textbackdrop1">About Me</p></h2>
         <!--these sections are written in a speculative manner. i don't actually have a career in this yet. one can dream-->
-        <div id="aboutme">
+        <div id="bodyparagraph">
           <p>
             I am a web developer from Seattle, Washington, USA. I focus on
             creating simple, elegant websites that are accessible and pleasant
@@ -64,11 +64,30 @@
           </p>
         </div>
       </section>
-      <section>
-        <h2 id="h2-2">Work</h2>
+      <section class="projects">
+        <div>
+          <!--heck of a time figuring out how to backdrop just the text of these headers without destroying the image entirely-->
+          <h2 id="h2-1"><p class="textbackdrop">Work</p></h2>
+        </div>
+        <div id="bodyparagraph">
+          <p>
+            Here you will find a number of my projects.<br /><br />
+            Click on a thumbnail to view the project in detail.
+          </p>
+        </div>
+        <div class="projectcards"></div>
+        <div class="projectcards2"></div>
+        <div class="projectcards3"></div>
       </section>
       <section class="photos">
-        <h2 id="h2-3">Photos</h2>
+        <h2 id="h2-1"><p class="textbackdrop">Photos</p></h2>
+        <div id="bodyparagraph">
+          <p>
+            I am also a photographer. Following you can find a sample of some of
+            my photos. If you are interested in working with me, please refer to
+            the contact methods listed below.
+          </p>
+        </div>
         <div class="photoex">
           <!--add alt text to photos-->
           <img
@@ -106,7 +125,6 @@
       <a href="#"><span id="span2">GitHub</span></a>
       <a href="#"><span id="span3">Spotify</span></a>
       <a href="#"><span id="span4">LinkedIn</span></a>
-      <i class="fa-solid fa-envelopes"></i>
     </footer>
   </body>
 </html>
