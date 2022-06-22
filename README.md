@@ -1,5 +1,11 @@
 # Gabe's Portfolio
 
+## URLRepo
+
+Repository URL: https://github.com/thegabe101/gabe-challenge-2
+
+Deploy URL:
+
 ## Description
 
 - Motivation: The motivation for this project was creating a space in which to display my work in HTML, CSS, JavaScript, and other coding languages I will learn over time.
